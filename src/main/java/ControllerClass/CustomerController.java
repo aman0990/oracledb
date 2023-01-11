@@ -3,6 +3,7 @@ package ControllerClass;
 import ModelClass.Customer;
 import ModelClass.Order;
 import ServiceClass.CustomerService;
+import ServiceClass.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -13,6 +14,9 @@ public class CustomerController {
 
     @Autowired
     private CustomerService customerService;
+
+    @Autowired
+    private OrderService orderService;
 
     @PostMapping("/customer")
     public Customer createCustomer(@RequestBody Customer customer) {
