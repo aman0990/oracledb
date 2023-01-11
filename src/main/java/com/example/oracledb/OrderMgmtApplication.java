@@ -1,13 +1,9 @@
 package com.example.oracledb;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 @SpringBootApplication
-public class OracledbApplication {
-
+public class OrderMgmtApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(OracledbApplication.class, args);
+		SpringApplication.run(OrderMgmtApplication.class, args);
 	}
-
 }
