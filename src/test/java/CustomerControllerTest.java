@@ -76,7 +76,7 @@ public class CustomerControllerTest {
     public void testApplyDiscount() {
         Order order = new Order();
         Long orderId = 1L;
-        double discount = 20.0;
+        double discount = 10.0;
         Mockito.when(customerService.applyDiscount(Mockito.anyLong(), Mockito.anyDouble())).thenReturn(order);
         assertEquals(customerController.applyDiscount(orderId, discount), order);
     }

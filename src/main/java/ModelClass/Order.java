@@ -1,17 +1,15 @@
 package ModelClass;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 
 @Entity
+@Table
 public class Order {
 
     @Id
     private Long id;
     @ManyToOne
-    @JoinColumn(name = "customer_id")
+    @JoinColumn(name = "id")
     private Customer customer;
     private double price;
     private double discount;

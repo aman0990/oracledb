@@ -1,21 +1,24 @@
 package ModelClass;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Table
 public class Customer {
 
     @Id
     private Long id;
 
     private String name;
+    @OneToMany
+    @JoinColumn(name = "id")
     private String email;
     private String phone;
     private int orderCount;
     private CustomerType customerType;
-    private List <Order> orders;
+    //@Transient
+    private List<Order> orders;
 
     public Customer() {
     }
