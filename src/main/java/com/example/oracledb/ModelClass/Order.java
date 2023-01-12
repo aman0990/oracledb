@@ -1,4 +1,4 @@
-package ModelClass;
+package com.example.oracledb.ModelClass;
 
 import javax.persistence.*;
 
@@ -9,7 +9,7 @@ public class Order {
     @Id
     private Long id;
     @ManyToOne
-    @JoinColumn(name = "id")
+    @JoinColumn(name = "cust_id",referencedColumnName = "id")
     private Customer customer;
     private double price;
     private double discount;

@@ -1,6 +1,4 @@
-package ServiceClass;
-
-import ModelClass.Customer;
+package com.example.oracledb.ServiceClass;
 
 import java.io.Serializable;
 import java.util.Objects;

@@ -2,7 +2,7 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
-import ControllerClass.CustomerController;
+import com.example.oracledb.ControllerClass.CustomerController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
@@ -10,9 +10,9 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import ModelClass.Customer;
-import ModelClass.Order;
-import ServiceClass.CustomerService;
+import com.example.oracledb.ModelClass.Customer;
+import com.example.oracledb.ModelClass.Order;
+import com.example.oracledb.ServiceClass.CustomerService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 

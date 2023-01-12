@@ -1,4 +1,4 @@
-package ModelClass;
+package com.example.oracledb.ModelClass;
 
 import javax.persistence.*;
 import java.util.List;
@@ -9,15 +9,15 @@ public class Customer {
 
     @Id
     private Long id;
-
     private String name;
-    @OneToMany
-    @JoinColumn(name = "id")
+
     private String email;
     private String phone;
     private int orderCount;
     private CustomerType customerType;
-    //@Transient
+
+    @Transient
+    @OneToMany
     private List<Order> orders;
 
     public Customer() {
