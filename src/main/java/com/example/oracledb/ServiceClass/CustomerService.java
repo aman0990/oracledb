@@ -1,10 +1,10 @@
-package ServiceClass;
+package com.example.oracledb.ServiceClass;
 
-import ModelClass.Customer;
-import ModelClass.CustomerType;
-import ModelClass.Order;
-import RepoInterface.CustomerRepository;
-import RepoInterface.OrderRepository;
+import com.example.oracledb.ModelClass.Customer;
+import com.example.oracledb.ModelClass.CustomerType;
+import com.example.oracledb.ModelClass.Order;
+import com.example.oracledb.RepoInterface.CustomerRepository;
+import com.example.oracledb.RepoInterface.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package RepoInterface;
+package com.example.oracledb.RepoInterface;
 
-import ModelClass.Customer;
+import com.example.oracledb.ModelClass.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

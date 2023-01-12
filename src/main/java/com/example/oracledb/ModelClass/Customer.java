@@ -1,4 +1,4 @@
-package ModelClass;
+package com.example.oracledb.ModelClass;
 
 import javax.persistence.*;
 import java.util.List;

@@ -1,9 +1,9 @@
-package ControllerClass;
+package com.example.oracledb.ControllerClass;
 
-import ModelClass.Customer;
-import ModelClass.Order;
-import ServiceClass.CustomerService;
-import ServiceClass.OrderService;
+import com.example.oracledb.ModelClass.Customer;
+import com.example.oracledb.ModelClass.Order;
+import com.example.oracledb.ServiceClass.CustomerService;
+import com.example.oracledb.ServiceClass.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
